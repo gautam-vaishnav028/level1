@@ -3,7 +3,7 @@ let path = require('path');
 // console.log(path);
 
 let extensionName = path.extname("E:\WD\level1\introToNode\path.js");
-console.log(extensionName);
+// console.log(extensionName);|
 
 // let baseName = path.basename("E:\WD\level1\introToNode\path.js");
 // console.log(baseName);
@@ -13,7 +13,9 @@ console.log(extensionName);
 // console.log(__filename);
 
 let dirPath = __dirname;
-console.log(dirPath);
+// console.log(dirPath);
+ 
+// to create new path in the directoryfile so don't show file only shown path
+let newFilePath = path.join(dirPath, 'newfile');
 
-let newFilePath = path.join(dirPath, 'demo1.js');
 console.log(newFilePath);
